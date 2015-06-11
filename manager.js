@@ -5,7 +5,6 @@ var userRequestor = require('./userRequestor.js');
 var expenseRequestor = require('./expenseRequestor.js');
 var querystring = require('querystring');
 
-
 var getParseOptions = function() {
     var options = {
         hostname: 'www.concursolutions.com',
